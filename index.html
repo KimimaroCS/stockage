@@ -8,8 +8,14 @@
 </head>
 <body>
     <h1>Bienvenue sur le Pense-Bête Settings</h1>
+    
+    <form id="createPageForm">
+        <input type="text" id="newPageName" placeholder="Nom de la nouvelle page" required>
+        <button type="submit">Créer une page</button>
+    </form>
+    
     <nav>
-        <ul>
+        <ul id="menu">
             <li><a href="nvidia.html">NVIDIA</a></li>
             <li><a href="amd.html">AMD</a></li>
             <li><a href="nzxt.html">NZXT</a></li>
@@ -17,5 +23,7 @@
             <li><a href="call-of-duty-video.html">Call of Duty Video</a></li>
         </ul>
     </nav>
+    
+    <script src="script.js"></script>
 </body>
 </html>
